@@ -14,7 +14,7 @@ const Header = () => {
 
   return (
     <header id="header">
-      <div className="container header__container">
+      <div className="container header__container" data-aos="fade-down">
         <div className="header__socials">
           {data.map((item) => (
             <a
