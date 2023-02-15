@@ -7,8 +7,8 @@ import "./about.css";
 
 const About = () => {
   return (
-    <section id="about" data-aos="fade-in">
-      <div className="container about__container">
+    <section id="about">
+      <div className="container about__container" data-aos="fade-in">
         <div className="about__left">
           <div className="about__portrait">
             <img src={AboutImage} alt="About Image" />

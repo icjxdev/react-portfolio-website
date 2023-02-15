@@ -3,6 +3,8 @@ import HeaderImage from "../../assets/header.jpg";
 import data from "./data";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { MdDesignServices, MdCode, MdVideoLibrary } from "react-icons/md";
+import { HiServer } from "react-icons/hi";
 import "./header.css";
 
 const Header = () => {
@@ -13,23 +15,6 @@ const Header = () => {
   return (
     <header id="header">
       <div className="container header__container">
-        <div className="header__profile" data-aos="fade-in">
-          <img src={HeaderImage} alt="Header Portrait" />
-        </div>
-        <h3 data-aos="fade-up">Hajia Bintu</h3>
-        <p data-aos="fade-up">
-          You are a click away from building your dream website or web app. Send
-          me the details of your project for a modern, mobile responsive, highly
-          performant website today!
-        </p>
-        <div className="header__cta" data-aos="fade-up">
-          <a href="#contact" className="btn primary">
-            Let's Talk
-          </a>
-          <a href="#portfolio" className="btn">
-            My Work
-          </a>
-        </div>
         <div className="header__socials">
           {data.map((item) => (
             <a
@@ -41,6 +26,37 @@ const Header = () => {
               {item.icon}
             </a>
           ))}
+        </div>
+        <div className="info">
+          <h1>UI/UX Designer & Fullstack Web Developer</h1>
+          <h3>Hi, I'm Christine</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos aliquam
+            aperiam facere quam laudantium voluptas quaerat! Ducimus numquam ex
+            quam velit voluptas architecto.
+          </p>
+          <a href="#contact" className="btn primary">
+            Let's Talk
+          </a>
+        </div>
+        <div className="profile__area">
+          <div className="outer__circle">
+            <span>
+              <MdDesignServices />
+            </span>
+            <span>
+              <HiServer />
+            </span>
+            <span>
+              <MdCode />
+            </span>
+            <span>
+              <MdVideoLibrary />
+            </span>
+          </div>
+          <div className="inner__circle">
+            <img src={HeaderImage} alt="Header Portrait" />
+          </div>
         </div>
       </div>
     </header>
