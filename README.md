@@ -12,7 +12,7 @@ The theme state/value is stored in the browser's local storage, so your last the
 - A FAQs toggle
 - An elegant floating navbar for tablets and phones
 
-## Hooks & Depedencies used:
+## Hooks & Dependencies used:
 - useState, useEffect, useRef, useReducer, useContext, custom hooks, and the context API
 - React Portal
 - Swiper JS
