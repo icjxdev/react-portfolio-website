@@ -40,7 +40,7 @@ const data = [
   },
   {
     id: 5,
-    quote: "I like how the app turned out. You are incredible, Hajia.",
+    quote: "I like how the app turned out. You are incredible, Christine.",
     avatar: Avatar5,
     name: "Vivian Mensah",
     profession: "Street Photographer",

@@ -31,7 +31,7 @@ const About = () => {
             than 70 happy clients worldwide, I'm always motivatedd to do more!
           </p>
           <p>
-            Hi, my name is Hajia Bintu from Accra, Ghana. I'm a full-stack web
+            Hi, my name is Christine from New York, USA. I'm a full-stack web
             developer with a Bachelors degree in Computer Science. My top
             priority is to get your business online the right way, giving you
             industry-standard design and all the functionality you need to
